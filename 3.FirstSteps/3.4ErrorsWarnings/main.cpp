@@ -3,7 +3,7 @@
 int main(){
    
    //Compile time error
-   std::cout << "Hello Word!" << std::endl;
+   std::cout << "Hello World!" << std::endl;
 
    //Run time error
    int value = 7/0;

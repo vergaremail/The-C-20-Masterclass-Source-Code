@@ -5,6 +5,11 @@ int addNumbers( int first_param, int second_param){
     return result;
 }
 
+int multiplyNumbers( int first_param, int second_param){
+    int result = first_param * second_param;
+    return result;
+}
+
 int main(){
 
     int first_number {13}; // Statement
@@ -23,6 +28,9 @@ int main(){
     std::cout << "Sum : " << sum << std::endl;
 
     std::cout << "Sum : " << addNumbers(3,42) << std::endl;
+
+    int product = multiplyNumbers(1,100);
+    std::cout << "Product is : " << product << std::endl;
 
 
     return 0;
